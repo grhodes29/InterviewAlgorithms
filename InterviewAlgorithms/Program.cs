@@ -11,14 +11,14 @@ namespace InterviewAlgorithms
         static void Main(string[] args)
         {
 
-           
+            MyImplementatinOfHayStack _hs = new MyImplementatinOfHayStack(10000, 1, 1000);
 
-            int _foundLocation; // =  // implement a class and method that return an index where _needle is found in _arrayInt, return -1 if not found 
+            bool _Isfound = _hs.IsNeedleInHay(_hs.Hay, _hs.Needle);
 
-            if (_foundLocation != -1)
+            if (_Isfound)
             {
 
-                Console.WriteLine("FOUND IT AT {0}", _foundLocation);
+                Console.WriteLine("FOUND IT AT {0}", _hs.IndexLocationOfNeedle(_hs.Hay, _hs.Needle));
 
             }
             else
@@ -27,6 +27,7 @@ namespace InterviewAlgorithms
                 Console.WriteLine("DID NOT FIND IT");
             }
 
+            Console.ReadKey();
         }
     }
 }
