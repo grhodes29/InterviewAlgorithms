@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewAlgorithms", "InterviewAlgorithms\InterviewAlgorithms.csproj", "{20AD3578-103B-4227-A7DA-C9A072C69203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleInterviewStringQuestionOne", "GoogleInterviewStringQuestionOne\GoogleInterviewStringQuestionOne.csproj", "{70153D08-F614-4F5D-BFED-C4C7DF4933DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20AD3578-103B-4227-A7DA-C9A072C69203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20AD3578-103B-4227-A7DA-C9A072C69203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20AD3578-103B-4227-A7DA-C9A072C69203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70153D08-F614-4F5D-BFED-C4C7DF4933DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70153D08-F614-4F5D-BFED-C4C7DF4933DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70153D08-F614-4F5D-BFED-C4C7DF4933DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70153D08-F614-4F5D-BFED-C4C7DF4933DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
